@@ -1,5 +1,7 @@
 # ProxyTrace · 代理流量按域名记账
 
+简体中文 | [English](README.en.md)
+
 看清楚你的**代理流量平时都去了哪些网站、被哪个软件用了、走了哪个节点**，从而把耗流量大的站点改走别的节点或直连，省下代理流量。
 
 专为 **Clash Verge Rev**（mihomo 内核）设计，**零第三方依赖**，只需 Python 3.8+。
@@ -166,3 +168,9 @@ data/
   proxytrace.pid        运行中进程号（运行时存在）
   proxytrace.log        后台日志（pythonw 模式输出）
 ```
+
+---
+
+## 许可
+
+[MIT](LICENSE) © 2026 Ultraman-Leo-7
