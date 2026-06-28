@@ -1,0 +1,19 @@
+# 运行时数据（含个人流量记录，切勿上传！）
+data/
+
+# 本地配置（首次运行自动生成，可能含 secret）
+config.json
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器 / 工具 / 系统
+.claude/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

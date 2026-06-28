@@ -1,0 +1,3 @@
+# 启动.vbs / 停止.vbs 为 UTF-16 LE 编码，标记为 binary 防止
+# 换行符自动转换破坏编码（否则 wscript 会无法解析）。
+*.vbs binary
