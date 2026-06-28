@@ -2,11 +2,17 @@
 
 简体中文 | [English](README.en.md)
 
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg) ![Platform](https://img.shields.io/badge/Platform-Windows-0078D6.svg)
+
 看清楚你的**代理流量平时都去了哪些网站、被哪个软件用了、走了哪个节点**，从而把耗流量大的站点改走别的节点或直连，省下代理流量。
 
 专为 **Clash Verge Rev**（mihomo 内核）设计，**零第三方依赖**，只需 Python 3.8+。
 
 > ⚠️ 目前仅支持 **Windows**（通过 Windows 命名管道访问 Clash 内核接口）。
+
+![ProxyTrace 网页面板](docs/screenshot.png)
+
+> 上图为演示数据，真实数据只存在你本机的 `data/traffic.db`，不会上传。
 
 ---
 

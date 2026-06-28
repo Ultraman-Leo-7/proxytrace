@@ -2,11 +2,17 @@
 
 [简体中文](README.md) | English
 
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg) ![Platform](https://img.shields.io/badge/Platform-Windows-0078D6.svg)
+
 See exactly **which websites your proxy traffic goes to, which app used it, and via which node** — so you can route the heavy hitters through a different node or bypass the proxy entirely and save bandwidth.
 
 Built for **Clash Verge Rev** (mihomo core). **Zero third-party dependencies** — just Python 3.8+.
 
 > ⚠️ Windows only (it talks to the Clash core over a Windows named pipe).
+
+![ProxyTrace dashboard](docs/screenshot.png)
+
+> Demo data above. Your real data lives only in `data/traffic.db` on your machine and is never uploaded.
 
 ---
 
